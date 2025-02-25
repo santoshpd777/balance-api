@@ -1,6 +1,6 @@
 FROM public.ecr.aws/amazonlinux/amazonlinux:latest
 
-# Install dependencies
+## Install dependencies
 RUN yum update -y && \
  yum install -y httpd
 
